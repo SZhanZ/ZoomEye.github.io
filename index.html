@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ZoomEye Project</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=Wp5CuPIAAAAJ&hl=en" target="_blank">Haozhan Shen</a><sup>1</sup>,
+              </span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=TuwMOZIAAAAJ&hl=en&oi=ao" target="_blank">Kangjia Zhao</a><sup>1</sup>,
+                </span>
+                  <span class="author-block">
+                    <a href="https://www.tianchez.com/" target="_blank">Tiancheng Zhao</a><sup>2,3*</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=HTp5S00AAAAJ&hl=en" target="_blank">Ruochen Xu</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=nhYxS9QAAAAJ&hl=en" target="_blank">Zilun Zhang</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=vdNE-SkAAAAJ&hl=en&oi=sra" target="_blank">Mingwei Zhu</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://person.zju.edu.cn/en/0001038" target="_blank">Jianwei Yin</a><sup>1</sup>,
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Zhejiang University, <sup>2</sup>Om AI Research, <sup>3</sup>Binjiang Institute of Zhejiang University</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2411.16044.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/om-ai-lab/ZoomEye" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2411.16044" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/omlab/zoom_eye_data" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  🤗
+                </span>
+                <span>Data</span>
+              </a>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        This video shows the zooming capabilities of Multimodal LLMs triggered by ZoomEye.  
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            An image, especially with high-resolution, typically consists of numerous visual elements, ranging from dominant large objects to fine-grained detailed objects. When perceiving such images, multimodal large language models (MLLMs) face limitations due to the restricted input resolution of the pretrained vision encoder and the cluttered, dense context of the image, resulting in a focus on primary objects while easily overlooking detailed ones. In this paper, we propose Zoom Eye, a tree search algorithm designed to navigate the hierarchical and visual nature of images to capture relevant information. Zoom Eye conceptualizes an image as a tree, with each children node representing a zoomed sub-patch of the parent node and the root represents the overall image. Moreover, Zoom Eye is model-agnostic and training-free, so it enables any MLLMs to simulate human zooming actions by searching along the image tree from root to leaf nodes, seeking out pertinent information, and accurately responding to related queries. We experiment on a series of elaborate high-resolution benchmarks and the results demonstrate that Zoom Eye not only consistently improves the performance of a series base MLLMs with large margin (e.g., LLaVA-v1.5-7B increases by 34.57% on V* Bench and 17.88% on HR-Bench), but also enables small 7B MLLMs to outperform strong large models such as GPT-4o.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Introducation</h2>
+    </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/intro.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle justified-text">
+          When dealing with a high-resolution image, <b>conventional MLLMs</b> effectively perceive the dominant objects but often fail to recognize finer details, hindered by the restricted input resolution and the dense image context.
+          In contrast, applied with the <b>confidence values of Zoom Eye</b>, MLLMs are required to explore the image details until they can adequately answer the question
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/examples.png" alt="MY ALT TEXT" style="width: 70%; height: auto ; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle justified-text">
+          Zoom Eye enables MLLMs to <b>(a)</b> answer the question directly when the visual information is adequate, <b>(b)</b> zoom in gradually for a closer examination, and <b>(c)</b> zoom out to the previous view and explore other regions if the desired information is not initially found.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Experimental Results</h2>
+    </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/results.jpg" alt="MY ALT TEXT" style="width: 85%; height: auto ; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle justified-text">
+            <b>Top:</b> the results on V* Bench and HR-Bench; <b>Bottom:</b> the results on MME-RealWorld HR-Bench. Both results demonstrate the superior performance of ZoomEye, which enables MLLMs to achieve improvements on most tasks.
+            However, it could also be observed that there exists performance decline on some sub-tasks, such as RS/Position of MME-RealWorld. You could refer to case study or <a href="https://arxiv.org/pdf/2411.16044.pdf" target="_blank">our paper</a> for the analysis.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/comparison.jpg" alt="MY ALT TEXT" style="width: 70%; height: auto ; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          Performance comparison between Zoom Eye and other <br>two high-resolution image processing methods.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/anyresBlock.jpg" alt="MY ALT TEXT" style="width: 70%; height: auto ; display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          Compared with its counterpart base MLLM, <br>ZoomEye showcases better robustness to various anyres blocks
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Case Study</h2>
+    </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/case1.jpg" alt="MY ALT TEXT" style="width: 100%; height: auto ; display: block; margin: 0 auto;"/>
+        
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/case2.jpg" alt="MY ALT TEXT" style="width: 90%; height: auto ; display: block; margin: 0 auto;"/>
+        
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/case3.jpg" alt="MY ALT TEXT" style="width: 90%; height: auto ; display: block; margin: 0 auto;"/>
+        
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/case4.jpg" alt="MY ALT TEXT" style="width: 100%; height: auto ; display: block; margin: 0 auto;"/>
+        
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{shen2024zoomeye,
+        title={ZoomEye: Enhancing Multimodal LLMs with Human-Like Zooming Capabilities through Tree-Based Image Exploration},
+        author={Shen, Haozhan and Zhao, Kangjia and Zhao, Tiancheng and Xu, Ruochen and Zhang, Zilun and Zhu, Mingwei and Yin, Jianwei},
+        journal={arXiv preprint arXiv:2411.16044},
+        year={2024}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
